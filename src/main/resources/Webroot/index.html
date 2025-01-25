@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Server App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Welcome to My Server</h1>
+<button id="timeButton">Check Time</button>
+<div id="timeDisplay"></div>
+
+<button id="weatherButton">Check Weather</button>
+<div id="weatherDisplay"></div>
+
+<button id="todoButton">To-Do List</button>
+<div id="todoPanel" style="display: none;">
+    <input type="text" id="taskInput" placeholder="Enter task...">
+    <input type="text" id="updateTaskInput" placeholder="Enter updated task...">
+    <button id="addButton">Add</button>
+    <button id="listButton">List</button>
+    <button id="updateButton">Update</button>
+    <button id="deleteButton">Delete</button>
+</div>
+
+<div id="todoList"></div>
+<script src="script.js"></script>
+</body>
+</html>
