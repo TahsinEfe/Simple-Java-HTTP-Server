@@ -11,7 +11,7 @@ import java.net.InetAddress;
 public class ClientHandler implements Runnable {
     private final Socket clientSocket;
     private static List<String> todos = new ArrayList<>();
-    private static final String MOCK_API_KEY = "005bdd1aa511197926625b3df51b11bb";
+    private static final String MOCK_API_KEY = "API_KEY";
 
     public ClientHandler(Socket socket) {
         this.clientSocket = socket;
